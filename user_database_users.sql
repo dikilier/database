@@ -28,7 +28,7 @@ CREATE TABLE `users` (
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'朱洋','1816251531@qq.com','123456'),(2,'小鱼','18151233066@qq.com','12345'),(3,'小猫','13151971027@qq.com','1234567'),(4,'小狗','15380050966@qq.com','12345678'),(5,'user','1@1.1','12345'),(6,'user','13151971027@qq.com','123'),(7,'user','123@qq.com','111'),(8,'user','74874@1.1','111'),(9,'user','1@1.1','123456'),(10,'user','559283@qq.cp,','123456'),(11,'user','559283@163.com','123456');
+INSERT INTO `users` VALUES (1,'朱洋','1816251531@qq.com','123456'),(2,'小鱼','18151233066@qq.com','12345'),(3,'小猫','13151971027@qq.com','1234567'),(4,'小狗','15380050966@qq.com','12345678'),(5,'user','1@1.1','12345'),(6,'user','13151971027@qq.com','123'),(7,'user','123@qq.com','111'),(8,'user','74874@1.1','111'),(9,'user','1@1.1','123456'),(10,'user','559283@qq.cp,','123456'),(11,'user','559283@163.com','123456'),(12,'user','15155154@123.com','123456'),(13,'user','454848@163.com','123456'),(14,'user','1816251531@qq.com','123456');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-09  4:26:02
+-- Dump completed on 2023-04-17 11:53:01
